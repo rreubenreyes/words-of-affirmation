@@ -68,7 +68,6 @@ export class Account {
     return new Profile({
       id: params.profileId,
       space: params.space,
-      exemplaryReplies: [],
     });
   }
 
