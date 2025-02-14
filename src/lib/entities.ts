@@ -334,7 +334,7 @@ export class Reply {
    */
   set label(l: Label) {
     if (this.#label !== undefined) {
-      // do nothing
+      return;
     }
 
     switch (l) {
